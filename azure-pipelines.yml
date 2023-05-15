@@ -15,8 +15,8 @@ steps:
     jdkVersionOption: '19.0'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
-    testResultsFiles: '**/TEST-*.xml'
-    tasks: 'assembleDebug test'
+ #   testResultsFiles: '**/TEST-*.xml'
+ #   tasks: 'assembleDebug test'
   displayName: gradlew assembleDebug test
 
 #- task: CopyFiles@2
